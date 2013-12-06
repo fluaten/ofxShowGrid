@@ -76,13 +76,13 @@ void ShowGrid(int widthG, int heightG, int sizeW, int sizeH, int decalX, int dec
     
     for (int i = 0; i <= (widthG + decalX); i += sizeW){
         
-        if (i<=(widthG + decalX)) { ofLine(decalX+i, decalY, decalX + i, heightG + decalY); }
+        if (i<(widthG + decalX)) { ofLine(decalX+i, decalY, decalX + i, heightG + decalY); }
         
     }
     
     for (int i = 0; i <= (widthG + decalX); i += sizeH){
         
-        if (i<=(heightG + decalY)) { ofLine(decalX, decalY+i, decalX + widthG, decalY + i); }
+        if (i<(heightG + decalY)) { ofLine(decalX, decalY+i, decalX + widthG, decalY + i); }
     }
     
     ofSetHexColor(0xffffff);

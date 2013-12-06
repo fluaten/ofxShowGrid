@@ -39,7 +39,7 @@ void testApp::draw(){
     }
     
     if (GridDrawRelative) {
-        ShowGrid(width, height, width/10, height/10);
+        ShowGrid(width, height, width/11, height/8);
         //ShowGrid(int widthG, int heightG,  int sizeW, int sizeH, int decalX, int decalY);
     }
     
