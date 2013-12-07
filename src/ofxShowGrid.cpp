@@ -22,14 +22,14 @@ void ShowGoldenRatio(int widthG, int heightG, int decalX, int decalY) {
 	int FibNumberH3 = FibNumberH2 - FibNumberH; // 3rd golden number
 	int FibNumberW3 = FibNumberW2 - FibNumberW;
     
-	ofSetHexColor(0x00ff00); // 1st golden number green
+	ofSetHexColor(0x00ff00); // 1st golden number lines green
     
 	ofLine(decalX, decalY + heightG - FibNumberH, decalX + widthG, decalY + heightG - FibNumberH);
 	ofLine(decalX, decalY + FibNumberH, decalX + widthG, decalY + FibNumberH);
 	ofLine(decalX + widthG - FibNumberW, decalY, decalX + widthG - FibNumberW, heightG + decalY);
 	ofLine(decalX + FibNumberW, decalY, decalX + FibNumberW, heightG + decalY);
     
-	ofSetHexColor(0xcccccc); // 3rd golden number gray
+	ofSetHexColor(0xcccccc); // 3rd golden number lines gray
     
 	ofLine(decalX, decalY + heightG - FibNumberH3, decalX + widthG, decalY + heightG - FibNumberH3);
 	ofLine(decalX, decalY + FibNumberH3, decalX + widthG, decalY + FibNumberH3);
@@ -41,7 +41,7 @@ void ShowThirdRatio(int widthG, int heightG, int decalX, int decalY) {
 	int ThirdRatioH = heightG / 3;
 	int ThirdRatioW = widthG / 3;
     
-	ofSetHexColor(0xff0000); // Third Ratio red
+	ofSetHexColor(0xff0000); // Third Ratio lines red
     
 	ofLine(decalX, decalY + heightG - ThirdRatioH, decalX + widthG, decalY + heightG - ThirdRatioH);
 	ofLine(decalX, decalY + ThirdRatioH, decalX + widthG, decalY + ThirdRatioH);
@@ -54,14 +54,14 @@ void ShowCenterRatio(int widthG, int heightG, int decalX, int decalY) {
 	int ThirdRatioH = heightG / 2;
 	int ThirdRatioW = widthG / 2;
     
-	ofSetHexColor(0xffffff); // Center right
+	ofSetHexColor(0xffffff); // Center lines white
     
 	ofLine(decalX, decalY + ThirdRatioH, decalX + widthG, decalY + ThirdRatioH);
 	ofLine(decalX + ThirdRatioW, decalY, decalX + ThirdRatioW, heightG + decalY);
 }
 
 void ShowGrid(int widthG, int heightG, int sizeW, int sizeH, int decalX, int decalY) {
-	ofSetHexColor(0x0000ff); // Grid blue
+	ofSetHexColor(0x0000ff); // Grid lines blue
     
 	for (int i = 0; i <= (widthG + decalX); i += sizeW) {
 		if (i < (widthG + decalX)) {
