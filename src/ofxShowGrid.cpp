@@ -35,6 +35,8 @@ void ShowGoldenRatio(int widthG, int heightG, int decalX, int decalY) {
 	ofLine(decalX, decalY + FibNumberH3, decalX + widthG, decalY + FibNumberH3);
 	ofLine(decalX + widthG - FibNumberW3, decalY, decalX + widthG - FibNumberW3, heightG + decalY);
 	ofLine(decalX + FibNumberW3, decalY, decalX + FibNumberW3, heightG + decalY);
+    
+	ofSetHexColor(0xffffff);
 }
 
 void ShowThirdRatio(int widthG, int heightG, int decalX, int decalY) {
@@ -48,16 +50,20 @@ void ShowThirdRatio(int widthG, int heightG, int decalX, int decalY) {
     
 	ofLine(decalX + widthG - ThirdRatioW, decalY, decalX + widthG - ThirdRatioW, heightG + decalY);
 	ofLine(decalX + ThirdRatioW, decalY, decalX + ThirdRatioW, heightG + decalY);
+    
+	ofSetHexColor(0xffffff);
 }
 
-void ShowCenterRatio(int widthG, int heightG, int decalX, int decalY) {
-	int ThirdRatioH = heightG / 2;
-	int ThirdRatioW = widthG / 2;
+void ShowCenter(int widthG, int heightG, int decalX, int decalY) {
+	int CenterRatioH = heightG / 2;
+	int CenterRatioW = widthG / 2;
     
 	ofSetHexColor(0xffffff); // Center lines white
     
-	ofLine(decalX, decalY + ThirdRatioH, decalX + widthG, decalY + ThirdRatioH);
-	ofLine(decalX + ThirdRatioW, decalY, decalX + ThirdRatioW, heightG + decalY);
+	ofLine(decalX, decalY + CenterRatioH, decalX + widthG, decalY + CenterRatioH);
+	ofLine(decalX + CenterRatioW, decalY, decalX + CenterRatioW, heightG + decalY);
+    
+	ofSetHexColor(0xffffff);
 }
 
 void ShowGrid(int widthG, int heightG, int sizeW, int sizeH, int decalX, int decalY) {
@@ -74,4 +80,6 @@ void ShowGrid(int widthG, int heightG, int sizeW, int sizeH, int decalX, int dec
 			ofLine(decalX, decalY + i, decalX + widthG, decalY + i);
 		}
 	}
+    
+	ofSetHexColor(0xffffff);
 }

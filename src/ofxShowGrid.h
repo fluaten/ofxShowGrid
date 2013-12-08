@@ -14,5 +14,5 @@
 
 void ShowGoldenRatio(int widthG, int heightG, int decalX = 0, int decalY = 0);
 void ShowThirdRatio(int widthG, int heightG, int decalX = 0, int decalY = 0);
-void ShowCenterRatio(int widthG, int heightG, int decalX = 0, int decalY = 0);
+void ShowCenter(int widthG, int heightG, int decalX = 0, int decalY = 0);
 void ShowGrid(int widthG, int heightG,  int sizeW, int sizeH, int decalX = 0, int decalY = 0);

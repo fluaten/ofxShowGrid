@@ -19,7 +19,7 @@ void testApp::draw() {
 	}
     
 	if (CenterRatio) {
-		ShowCenterRatio(width, height);
+		ShowCenter(width, height);
 		//ShowCenterRatio(int widthG, int heightG, int decalX, int decalY)
 	}
     

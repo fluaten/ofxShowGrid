@@ -37,7 +37,7 @@ To show __Golden ratio__ relative to your width and height.
 
 To show __Center__ relative to your width and height.
     
-	ShowCenterRatio(int widthG, int heightG, int decalX, int decalY);
+	ShowCenter(int widthG, int heightG, int decalX, int decalY);
 
 To show __Third Ratio__ relative to your width and height.
   
