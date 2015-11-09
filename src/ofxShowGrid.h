@@ -3,7 +3,7 @@
 // ofxShowGrid
 //
 // Created by Nicolas Boillot on 13-12-05.
-// Copyright 2013 fluate.net All rights reserved.
+// 2013-2015  fluate.net
 //
 
 #pragma once

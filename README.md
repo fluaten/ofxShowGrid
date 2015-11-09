@@ -1,6 +1,6 @@
 # ofxShowGrid
 
-![ofxShowGrid](https://raw.github.com/fluaten/ofxShowGrid/master/ofxaddons_thumbnail.png)
+![ofxShowGrid](http://www.fluate.net/media/blog/ofxaddons_thumbnail.png)
 
 Openframeworks addon C++
 
@@ -18,14 +18,14 @@ Credit : Nicolas Boillot <http://www.fluate.net>
     
     
 ===
-in __testApp.h__ add :
+in __ofApp.h__ add :
 
 	#include "ofxShowGrid.h" 
 
 
 ===
 
-Then in __draw()__ of __testApp.cpp__ add :
+Then in __draw()__ of __ofApp.cpp__ add :
 
 To show __Grid__ relative to your width and height, define sizeW and sizeH to define each cell size.
 
